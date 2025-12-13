@@ -1,1 +1,32 @@
-https://ecampus-encg.uca.ma/
+**ROLE:** You are a Reverse-Engineering Analyst. Your job is to deconstruct viral YouTube Shorts into raw data points.
+
+**INPUT:** Watch the attached video.
+
+**TASK:** Analyze the video and generate a "Viral DNA Report" in the following JSON format. Do not summarize; be specific and technical.
+
+**OUTPUT FORMAT:**
+{
+  "Meta_Data": {
+    "Duration": "[In seconds]",
+    "Niche_Category": "[General Topic, e.g., History, Crime, Science]",
+    "Visual_Style": "[e.g., 2.5D Parallax, AI Generated, Stock Footage, Fast-Paced Collage]"
+  },
+  "Psychology": {
+    "The_Hook": "[What is the very first sentence? What visual shock was used?]",
+    "Retention_Mechanism": "[How did they keep attention? e.g., Open Loops, Fast Cuts, Controversy]",
+    "Emotional_Trigger": "[e.g., Fear, Nostalgia, Anger, Curiosity]"
+  },
+  "Production_Complexity": {
+    "Asset_Type": "[Describe the assets: e.g., Cutout PNGs over blurry backgrounds]",
+    "Audio_Layering": "[Describe the sound design: e.g., Constant background bass, distinct SFX on transitions]"
+  },
+  "Structure_Transcript": [
+    {
+      "Time": "0:00-0:03",
+      "Spoken_Words": "[Transcript]",
+      "Visual_Action": "[Technical description of what is on screen]",
+      "Overlay_Text": "[Text on screen if any]"
+    }
+    // Continue for full video
+  ]
+}
